@@ -1,5 +1,6 @@
 from rest_framework import generics
 
+
 from .permissions import IsAuthorOrReadOnly
 from .models import Post
 from .serializers import PostSerializer
